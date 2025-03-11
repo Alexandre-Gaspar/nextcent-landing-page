@@ -15,6 +15,7 @@ import rafiki from './../../assets/images/rafiki.png';
 import pana from './../../assets/images/pana.png';
 import TestimonialCard from "../../components/Testimonial";
 import BlogSection from "../../components/BlogSection";
+import CallToAction from "../../components/CallToAction";
 
 function SecondSection(): string {
     return /* html */`
@@ -42,6 +43,7 @@ function SecondSection(): string {
                 logos: [icon, icon_0, icon_1, icon_2, icon_3, icon_4]
             })}
             ${BlogSection()}
+            ${CallToAction()}
         </div>
     `;
 }

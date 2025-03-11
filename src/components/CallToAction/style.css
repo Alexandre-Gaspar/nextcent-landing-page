@@ -1,0 +1,14 @@
+.call-to-action {
+    
+    background-color: var(--color-silver);
+}
+
+.call-to-action.my-5 {
+    margin-block: 3.2rem !important;
+}
+
+.call-to-action > div > h2 {
+    width: 88.7rem;
+    font-size: 6.4rem;
+    line-height: 7.6rem;
+}
