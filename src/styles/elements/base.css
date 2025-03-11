@@ -1,0 +1,8 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: var(--color-);
+}
+
+p { color: var(--color-neutral-grey) }
+h2 { color: var(--color-neutral-d-gray) }

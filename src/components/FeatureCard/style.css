@@ -1,0 +1,18 @@
+.banner {
+    background-color: var(--color-silver);
+}
+
+article > div > h2 {
+    font-size: 6.4rem;
+    line-height: 7.6rem;
+    font-weight: 500;
+} 
+
+article > div > p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.row {
+    height: 100vh;
+}

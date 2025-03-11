@@ -1,0 +1,25 @@
+.statistics-section div {
+    max-width: 54.0rem;
+    width: 100%;
+}
+
+.statistics-section > div > h2 {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+}
+
+.statistics-section > div > p {
+    text-align: start;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+.statistics-section .statistic-item > article div > h2 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+}
+
+.statistics-section .statistic-item > article div > p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}

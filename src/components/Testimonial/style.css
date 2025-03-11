@@ -1,0 +1,25 @@
+div > img[alt="Testimonial"] {
+    width: 32.6rem;
+}
+
+div ~ section > p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+div ~ section > div > img[alt="Logo"] {
+    width: 4.8rem;
+    height: 4.8rem;
+}
+
+div ~ section > footer > p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+div ~ section > footer > h5,
+div ~ section > div > a {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    color: var(--color-primary);
+}

@@ -1,0 +1,26 @@
+nav#navbar {
+    height: 8.4rem;
+    background-color: var(--color-white);
+}
+
+.logo > img {
+    width: 15.4rem;
+    height: 2.4rem;
+}
+
+ul { font-size: 1.6rem }
+
+.menu-item { color: var(--color-text-normal); padding-bottom: .5rem }
+
+.menu-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: .2rem;
+    background-color: var(--color-primary);
+    transition: width .3s ease-in-out;
+}
+
+.menu-item:hover::after { width: 100% }

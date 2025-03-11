@@ -1,0 +1,29 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --color-primary: #4CAF4F;
+  --color-primary-dark: #237D31;
+  --color-black: #263238;
+  --color-text-normal: #18191F;
+  --color-neutral-d-gray: #4D4D4D;
+  --color-silver: #F5F7FA;
+  --color-white: #FFFFFF;
+  --color-input-silver: #D9DBE1;
+  --color-neutral-grey: #717171;
+  --color-shadow-card: rgba(0, 0, 0, .2);
+}
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */

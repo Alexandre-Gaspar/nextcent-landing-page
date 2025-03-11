@@ -1,0 +1,12 @@
+.second-section article > div > h2 {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    font-weight: 500;
+} 
+
+.second-section article > div > p {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+} 
+
+.second-section div.banner section.row { height: auto; }

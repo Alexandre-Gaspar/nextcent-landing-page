@@ -1,0 +1,18 @@
+.community-item {
+    width: 100%;
+    max-width: 29.9rem;
+    height: 26.0rem;
+    padding: 2.4rem 3.2rem;
+    box-shadow: 0 0 .2rem var(--color-shadow-card);
+}
+
+.community-item h2 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+}
+
+.community-item p {
+    font-style: 1.4em;
+    line-height: 2rem;
+}
