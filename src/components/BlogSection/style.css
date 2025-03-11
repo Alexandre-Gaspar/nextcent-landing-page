@@ -1,0 +1,13 @@
+.blog-section > div >  h2 {
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+}
+
+.blog-section > div > p {
+    font-size: 1.6rem ;
+    line-height: 2.4rem;
+    width: 62.8rem;
+    height: 7.2rem;
+    margin: 0 auto;
+}
+

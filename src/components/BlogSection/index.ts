@@ -1,6 +1,8 @@
 import BlogCard from "../BlogCard";
 import TitleDescription from "../TitleText";
 
+import "./style.css";
+
 import image_18 from './../../assets/images/image_18.png';
 import image_19 from './../../assets/images/image_19.png';
 import image_20 from './../../assets/images/image_20.png';
@@ -32,7 +34,7 @@ const blogs: BlogCardProps[] = [
 function BlogSection(): string {
 
     return /* html */`
-        <div class="container text-center my-5">
+        <div class="container text-center my-5 blog-section">
             ${TitleDescription({ 
                 title: "Caring is the new marketing", 
                 description: "The Nexcent blog is the best place to read about the latest membership insights, trends, and more..." 
