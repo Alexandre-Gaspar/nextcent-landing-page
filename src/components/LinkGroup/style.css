@@ -1,0 +1,12 @@
+.link-group-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.link-group-list a {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--color-silver);
+    text-decoration: none;
+}

@@ -1,3 +1,8 @@
+.statistics-section {
+    padding: 6.4rem 12.0rem;
+    background-color: var(--color-silver); 
+}
+
 .statistics-section div {
     max-width: 54.0rem;
     width: 100%;

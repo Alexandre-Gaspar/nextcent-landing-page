@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import FirstSection from './objects/FirstSection';
 
 import SecondSection from './objects/SecondSection';
+import Footer from './objects/Footer';
 
 const $root = document.querySelector<HTMLDivElement>('#app')
 
@@ -16,6 +17,7 @@ $root!.insertAdjacentHTML(
         ${FirstSection()}
         <br><br><br>
         ${SecondSection()}
+        ${Footer()}
     `
 );
 

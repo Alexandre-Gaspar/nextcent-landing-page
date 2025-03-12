@@ -1,5 +1,10 @@
-section > div > h2 {
+section.our-client > div > h2 {
     font-size: 3.6rem;
     font-weight: 500;
     line-height: 4.4rem;
+}
+
+section.our-client > div > p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }

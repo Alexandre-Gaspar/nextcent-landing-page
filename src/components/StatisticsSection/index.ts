@@ -17,7 +17,7 @@ const statisticsData = [
 
 function StatisticsSection() {
     return /* html */`
-        <div class="statistics-section d-flex align-items-center">
+        <div class="statistics-section d-flex align-items-center justify-content-between">
             ${TitleDescription({
                 title: `Helping a local <br> <span style="color: var(--color-primary)">business reinvent itself</span>`,
                 description: "We reached here with our hard work and dedication."

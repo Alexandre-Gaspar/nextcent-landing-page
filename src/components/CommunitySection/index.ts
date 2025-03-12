@@ -6,14 +6,14 @@ import icon from './../../assets/community/Icon.png'
 import icon_1 from './../../assets/community/Icon-1.png'
 import icon_2 from './../../assets/community/Icon-2.png'
 
-type CommunityItemType = {
+type CommunityItemTypeProps = {
     icon: string;
     alt?: string;
     title: string;
     description: string;
 }
 
-const communityItemList: CommunityItemType[] = [
+const communityItemList: CommunityItemTypeProps[] = [
     {icon: icon, title: "Membership Organisations", description: "Our membership management software provides full automation of membership renewals and payments"},
     {icon: icon_1, title: "National Associations", description: "Our membership management software provides full automation of membership renewals and payments"},
     {icon: icon_2, title: "Clubs And Groups", description: "Our membership management software provides full automation of membership renewals and payments"}
@@ -27,7 +27,7 @@ function CommunitySection() {
     return `
         <div class="community-section text-center d-flex flex-column justify-content-center align-items-center">    
             ${TitleDescription({title, description})}
-            <section class="w-100 d-flex justify-content-evenly align-items-center">
+            <section class="w-100 mt-5 d-flex justify-content-evenly align-items-center">
                 ${communityItemList.map(item => CommunityItem(item)).join("")}
             </section>
         </div>

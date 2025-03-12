@@ -15,7 +15,7 @@ function OurClients() {
 
     return /* html */`
         <div class="container text-center">
-            <section class="d-flex gap-5 flex-column align-items-center justify-content-between">
+            <section class="our-client d-flex gap-5 flex-column align-items-center justify-content-between">
                 ${TitleDescription({title, description})}
                 <article class="w-100 d-flex justify-content-around align-items-center">
                     <img src="${logo}">

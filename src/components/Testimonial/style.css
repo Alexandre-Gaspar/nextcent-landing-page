@@ -1,3 +1,9 @@
+.card__testimonial {
+    width: 100%;
+    padding-block: 3.2rem;
+    background-color: var(--color-silver);
+}
+
 div > img[alt="Testimonial"] {
     width: 32.6rem;
 }

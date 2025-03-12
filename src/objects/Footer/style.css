@@ -1,0 +1,77 @@
+footer#app__footer#app__footer#app__footer {
+    background-color: var(--color-black);
+    padding: 6.4rem 13.0rem !important;
+}
+
+footer#app__footer > section > div > img {
+    width: 19.1rem;
+}
+
+footer#app__footer > section {
+    height: auto;
+}
+
+footer#app__footer .footer__copy p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--color-silver);
+}
+
+footer#app__footer > section .social-media {
+    width: 100%;
+    max-width: 20.0rem;
+}
+
+footer#app__footer > section .social-media a {
+    padding: .7rem;
+    border-radius: 50%;
+    background-color: var(--color-neutral-d-gray);
+}
+
+footer#app__footer > section .social-media a > img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+footer#app__footer > section > div:nth-child(2) h3 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+footer#app__footer > section > div:nth-child(2) h3 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+footer#app__footer > section > div:nth-child(2) .input_group > input {
+    width: 100%;
+    min-width: 25.5rem;
+    height: 4rem;
+    background-color: var(--color-neutral-d-gray);
+    padding: 10px;
+    border: none;
+    border-radius: .8rem;
+}
+
+footer#app__footer > section > div:nth-child(2) .input_group > input::placeholder {
+    color: #D9DBE1;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+footer#app__footer > section > div:nth-child(2) .input_group {
+    position: relative;
+}
+
+footer#app__footer > section > div:nth-child(2) .input_group > .send-email {
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    transform: translateY(50%);
+    border: none;
+    background-color: transparent;
+}

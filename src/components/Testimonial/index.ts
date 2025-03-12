@@ -10,8 +10,8 @@ interface TestimonialProps {
 
 function TestimonialCard({ image, text, name, position, logos }: TestimonialProps): string {
     return /* html */`
-        <div class="container">
-            <article class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <div class=" card__testimonial">
+            <article class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
                 <div class="flex-shrink-0"> <img class="img-fluid" src="${image}" alt="Testimonial"> </div>
                 
                 <section class="d-flex flex-column justify-content-between flex-grow-1">
