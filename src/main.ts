@@ -10,14 +10,29 @@ import Footer from './objects/Footer';
 
 const $root = document.querySelector<HTMLDivElement>('#app')
 
-$root!.insertAdjacentHTML(
-    "beforeend", 
-    `
-        ${Navbar()}
-        ${FirstSection()}
-        <br><br><br>
-        ${SecondSection()}
-        ${Footer()}
-    `
-);
+if (!$root) {
+    console.log('Elemento #app não encontrado');
+} else {
+    $root.insertAdjacentHTML(
+        "beforeend", 
+        `
+            ${Navbar()}
+            ${FirstSection()}
+            <br><br><br>
+            ${SecondSection()}
+            ${Footer()}
+        `
+    );
+}
 
+document.addEventListener("DOMContentLoaded", () => {
+    const navbar = document.querySelector("#navbar");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+            navbar?.classList.add("scrolled");
+        } else {
+            navbar?.classList.remove("scrolled");
+        }
+    });
+});

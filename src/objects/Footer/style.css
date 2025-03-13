@@ -51,10 +51,19 @@ footer#app__footer > section > div:nth-child(2) .input_group > input {
     width: 100%;
     min-width: 25.5rem;
     height: 4rem;
+    color: #D9DBE1;
+    font-size: 1.4rem;
+    line-height: 2rem;
     background-color: var(--color-neutral-d-gray);
     padding: 10px;
+    padding-right: 4rem;
     border: none;
     border-radius: .8rem;
+}
+
+footer#app__footer > section > div:nth-child(2) .input_group > input:focus {
+    border: none;
+    outline: none;
 }
 
 footer#app__footer > section > div:nth-child(2) .input_group > input::placeholder {
@@ -69,9 +78,10 @@ footer#app__footer > section > div:nth-child(2) .input_group {
 
 footer#app__footer > section > div:nth-child(2) .input_group > .send-email {
     position: absolute;
-    right: 10px;
+    right: 1rem;
     bottom: 50%;
     transform: translateY(50%);
     border: none;
+    border-radius: 100%;
     background-color: transparent;
 }

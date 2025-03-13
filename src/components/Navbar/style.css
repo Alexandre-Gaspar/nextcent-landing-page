@@ -1,6 +1,13 @@
 nav#navbar {
     height: 8.4rem;
-    background-color: var(--color-white);
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+}
+
+.scrolled {
+    /* background-color: rgba(0, 0, 0, 1);  */
+    backdrop-filter: blur(9px) !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo > img {

@@ -8,7 +8,6 @@ interface FeatureCard {
     description: string;
     buttonText: string;
     reverse?: string | null;
-    // banner: boolean;
 }
 
 function FeatureCard({image, title, description, buttonText, reverse}: FeatureCard): string {
