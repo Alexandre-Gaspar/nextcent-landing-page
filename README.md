@@ -46,6 +46,7 @@
 - ✅ Design responsivo e otimizado
 - ✅ Navegação dinâmica com manipulação do DOM
 <br><br><br>
-<em> 
+<em>
+
 > Este design foi baseado em um template da comunidade do figma, porém, com algumas modificações feitas por mim, portanto, sinta-se à vontade para explorar, modificar e aprimorar este projeto! 🚀
 </em>
