@@ -7,11 +7,12 @@
     box-shadow: 0 0 .2rem var(--color-shadow-card);
     user-select: none;
     transition: transform .3s, box-shadow .3s;
+    transition-delay: 0s!important;
 }
 
 .community-item:hover {
-    box-shadow: 0 0 .8rem var(--color-shadow-card);
-    transform: scale(1.1);
+    box-shadow: 0 0 .8rem var(--color-shadow-card)!important;
+    transform: scale(1.1)!important;
 }
 
 .community-item h2 {

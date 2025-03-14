@@ -24,7 +24,7 @@ function CommunitySection() {
     const title: string = "Manage your entire community in a single system";
     const description: string = "Who is Nextcent suitable for?";
 
-    return `
+    return /* html */`
         <div class="community-section text-center d-flex flex-column justify-content-center align-items-center">    
             ${TitleDescription({ title, description })}
             <section class="mt-5 d-flex justify-content-center align-items-center">
