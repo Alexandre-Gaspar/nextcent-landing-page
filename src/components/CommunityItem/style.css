@@ -1,9 +1,17 @@
 .community-item {
     width: 100%;
-    max-width: 29.9rem;
+    max-width: 27.0rem;
     height: 26.0rem;
     padding: 2.4rem 3.2rem;
+    background-color: var(--color-white);
     box-shadow: 0 0 .2rem var(--color-shadow-card);
+    user-select: none;
+    transition: transform .3s, box-shadow .3s;
+}
+
+.community-item:hover {
+    box-shadow: 0 0 .8rem var(--color-shadow-card);
+    transform: scale(1.1);
 }
 
 .community-item h2 {

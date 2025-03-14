@@ -9,9 +9,9 @@ type StatisticItemProps = {
 
 function StatisticItem({ icon, title, description, alt }: StatisticItemProps): string {
   return /* html */ `
-    <section style="height: auto" class="statistic-item d-flex gap-5">
+    <section data-aos="fade-down" style="height: auto" class="statistic-item d-flex gap-5">
       <div>
-        <img src="${icon}" alt="${alt}" class="statistic-icon"/>
+        <img src="${icon}" alt="${alt}" class="statistic-icon" />
       </div>
       <article>
         ${TitleDescription({ title, description})}

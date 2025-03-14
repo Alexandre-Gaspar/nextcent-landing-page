@@ -12,7 +12,7 @@ interface FeatureCard {
 
 function FeatureCard({image, title, description, buttonText, reverse}: FeatureCard): string {
     return /* html */`
-        <div class="banner">    
+        <div data-aos="fade-up" class="banner">    
             <div class="container">
                 <section class="row d-flex ${reverse} align-items-center justify-content-between">
                     <article class="col-md-5 d-flex justify-content-center">

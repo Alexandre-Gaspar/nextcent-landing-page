@@ -1,3 +1,6 @@
+.community-section > section {
+    gap: 4.8rem;
+}
 
 .community-section > div > h2 {
     font-size: 3.6rem;

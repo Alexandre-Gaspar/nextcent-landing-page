@@ -28,7 +28,7 @@ function Footer() {
     return /* html */`
         <footer id="app__footer" class="container-fluid">
             <section class="row row-cols-1 row-cols-md-2 g-2 g-lg-3">
-                <div class="col col-md-4 d-flex flex-column justify-content-between text-light">
+                <div class="col-12 col-md-4 d-flex flex-column justify-content-between text-light">
                     <img src="${light_logo}" alt="Logo da nextcent">
                     <div class="footer__copy">
                         <p>Copyright © 2020 Nexcent ltd.</p>
@@ -41,7 +41,7 @@ function Footer() {
                         <a href="#"><img src="${ic_youtube}" alt="ícone do youtube" /></a>
                     </div>
                 </div>
-                <div class="col col-md-8 d-flex justify-content-between text-light">
+                <div class="col-12 col-md-8 d-flex justify-content-between flex-wrap text-light">
                     ${LinkGroup({ title: "Company", links: links__block_1 })}
                     ${LinkGroup({ title: "Support", links: links__block_2 })}
                     <div class="input__send-email">

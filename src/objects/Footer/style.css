@@ -23,14 +23,18 @@ footer#app__footer > section .social-media {
 }
 
 footer#app__footer > section .social-media a {
-    padding: .7rem;
     border-radius: 50%;
     background-color: var(--color-neutral-d-gray);
+    transition: transform .2s ease-in-out;
+}
+
+footer#app__footer > section .social-media a:hover {
+    transform: scale(1.2);
 }
 
 footer#app__footer > section .social-media a > img {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 3.2rem;
+    height: 3.2rem;
 }
 
 footer#app__footer > section > div:nth-child(2) h3 {
@@ -63,7 +67,9 @@ footer#app__footer > section > div:nth-child(2) .input_group > input {
 
 footer#app__footer > section > div:nth-child(2) .input_group > input:focus {
     border: none;
+    border: 1px solid var(--color-primary);
     outline: none;
+    box-shadow: 0 0 5px var(--color-primary);
 }
 
 footer#app__footer > section > div:nth-child(2) .input_group > input::placeholder {
@@ -78,10 +84,20 @@ footer#app__footer > section > div:nth-child(2) .input_group {
 
 footer#app__footer > section > div:nth-child(2) .input_group > .send-email {
     position: absolute;
-    right: 1rem;
+    right: .7rem;
     bottom: 50%;
     transform: translateY(50%);
     border: none;
     border-radius: 100%;
     background-color: transparent;
+}
+
+footer#app__footer .send-email > img {
+    transition: transform 0.3s ease-in-out;
+}
+
+footer#app__footer .send-email:hover {
+    img {
+        transform: rotate(45deg);
+    }
 }

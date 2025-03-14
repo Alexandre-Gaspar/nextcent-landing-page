@@ -1,16 +1,22 @@
 .card__testimonial {
     width: 100%;
     padding-block: 3.2rem;
+    padding-inline: 10.0rem;
     background-color: var(--color-silver);
+}
+
+.card__testimonial > .row {
+    height: auto;
 }
 
 div > img[alt="Testimonial"] {
     width: 32.6rem;
 }
 
-div ~ section > p {
+.card__testimonial section > p {
     font-size: 1.6rem;
     line-height: 2.4rem;
+    margin-top: -100px;
 }
 
 div ~ section > div > img[alt="Logo"] {
@@ -28,4 +34,19 @@ div ~ section > div > a {
     font-size: 2rem;
     line-height: 2.8rem;
     color: var(--color-primary);
+}
+
+.card__testimonial a {
+    /* width: 200px; */
+}
+
+.card__testimonial a > span {
+    margin-left: 0;
+    transition: .2s ease-in-out;
+}
+
+.card__testimonial a:hover {
+    span {
+        margin-left: 1rem;
+    }
 }

@@ -5,8 +5,29 @@
 }
 
 .link-group-list a {
+    position: relative;
+    text-decoration: none;
     font-size: 1.4rem;
     line-height: 2rem;
     color: var(--color-silver);
-    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
+
+.link-group-list a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-silver);
+    transition: width 0.2s ease-in-out;
+}
+
+.link-group-list a:hover {
+    color: var(--color-primary);
+}
+
+/* .link-group-list a:hover::after {
+    width: 100%;
+} */

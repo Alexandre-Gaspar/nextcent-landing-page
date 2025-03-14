@@ -15,7 +15,7 @@ function Navbar(): string {
                     <li> <a href="#" class="text-decoration-none position-relative menu-item">Service</a> </li>
                     <li> <a href="#" class="text-decoration-none position-relative menu-item">Feature</a> </li>
                     <li> <a href="#" class="text-decoration-none position-relative menu-item">Product</a> </li>
-                    <li> <a href="#" class="text-decoration-none position-relative menu-item">Testemunial</a> </li>
+                    <li> <a href="#testimonial" class="text-decoration-none position-relative menu-item">Testemunial</a> </li>
                     <li> <a href="#" class="text-decoration-none position-relative menu-item">FAQ</a> </li>
                 </ul>
                 <div class="buttons">

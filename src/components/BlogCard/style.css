@@ -28,3 +28,14 @@
     border-radius: inherit;
     box-shadow: 0 8px 8px var(--color-shadow-card);
 }
+
+.blog > .card > .card-body > a > span {
+    margin-left: 0;
+    transition: .2s ease-out;
+}
+
+.blog > .card > .card-body > a:hover {
+    span {
+        margin-left: 1rem;
+    }
+}
